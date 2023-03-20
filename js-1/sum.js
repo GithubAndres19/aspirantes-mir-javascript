@@ -1,5 +1,4 @@
 // escribe la función suma acá
-
 function sum(num) {
     if (num <= 1) {
         return num
