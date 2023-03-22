@@ -1,13 +1,12 @@
 // escribe la función max acá
 function max(values = []) {
-    let maxim = 0
-    for (let i = 0; i < values.length; i++) {
-        maxim < values[i]
+    if(values.length[0]) return undefined
+    let maxim = values [0]
+    for (let i = 1; i < values.length; i++) {
         if (maxim <= values[i]) {
-            maxim = values[i]
+            maxim = values[i];
         }
     }
-    if (maxim <= 0) return undefined
     return maxim
 }
 console.log(max([1, 3, 2])) // 3

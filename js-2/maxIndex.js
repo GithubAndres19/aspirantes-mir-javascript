@@ -1,13 +1,14 @@
 // escribe la función maxIndex acá
 function maxIndex(values = []) {
+    if (values.length === 0) return -1
     let maxim = 0
     pos = -1
     for (let i = 0; i < values.length; i++) {
         maxim < values[i]
         if (maxim <= values[i]) {
             maxim = values[i]
+            pos = i
         }
-        if (values[i] == maxim) { pos = i }
     }
     return pos
 }
