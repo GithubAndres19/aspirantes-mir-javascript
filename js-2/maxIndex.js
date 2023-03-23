@@ -2,7 +2,7 @@
 function maxIndex(values = []) {
     if (values.length === 0) return -1
     let maxim = 0
-    pos = -1
+    let pos = -1
     for (let i = 0; i < values.length; i++) {
         maxim < values[i]
         if (maxim <= values[i]) {

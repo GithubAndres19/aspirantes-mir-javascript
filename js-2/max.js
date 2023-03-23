@@ -4,7 +4,7 @@ function max(values = []) {
     let maxim = values [0]
     for (let i = 1; i < values.length; i++) {
         if (maxim <= values[i]) {
-            maxim = values[i];
+            maxim = values[i]
         }
     }
     return maxim
